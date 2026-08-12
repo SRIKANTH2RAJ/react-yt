@@ -14,15 +14,20 @@ const App = () => {
       tag:"Underserved"
     },
     {
-      img:"https://images.unsplash.com/photo-1507206130118-b5907f817163?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      intro:"",
+      img:"https://plus.unsplash.com/premium_photo-1661766386981-1140b7b37193?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      intro:"",           
       tag:"Underbanked"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      intro:"",
+      tag:"Undertown"
     }
     
   ]
   return (
     <div>
-      <Section1 />
+      <Section1 user={users}/>
       <Section2 />
     </div>
   )
