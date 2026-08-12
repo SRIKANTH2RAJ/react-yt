@@ -25,6 +25,7 @@ const App = () => {
     }
     
   ]
+  console.log({users})
   return (
     <div>
       <Section1 user={users}/>

@@ -3,6 +3,7 @@ import Leftcontent from './leftcontent.jsx'
 import Rightcontent from './Rightcontent.jsx'   
 
 const Pageonecontent = (props) => {
+  console.log(props.use)
   return (
     <div className="py-10 flex justify-between items-center h-[90vh]  px-18">
     
