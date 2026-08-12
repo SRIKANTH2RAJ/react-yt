@@ -5,7 +5,7 @@ import Rightcontent from './Rightcontent.jsx'
 const Pageonecontent = (props) => {
   console.log(props.use)
   return (
-    <div className="py-10 flex justify-between items-center h-[90vh]  px-18">
+    <div className="pb-16 pt-6 flex justify-between items-center h-[90vh]  px-18">
     
         <Leftcontent/>
        
