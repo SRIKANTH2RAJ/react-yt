@@ -8,11 +8,15 @@ const App = () => {
     console.log(val)
   }
   function scroll_speed(val){
-    console.log(val)
+    // console.log("Page scrolling at a speed", val)
+    if(val>0)
+      console.log("User scrolling DOWN")
+    else
+      console.log("User scrolling UP")
   }
   return (
     <div onWheel={(elem)=>{
-      scroll_speed(elem)
+      scroll_speed(elem.deltaY)
     }}>
       <div className='page1'>
       <h1>hi hello how are you how is it</h1>
